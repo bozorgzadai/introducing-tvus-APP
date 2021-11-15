@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_state_bg_spinner"
+    android:gravity="center"
+    android:padding="@dimen/search_uni_search_header_spinner_find_uni_padding"
+    android:text="test"
+    android:textColor="@color/search_uni_search_header_spinner_find_uni_text_color"
+    android:textSize="@dimen/search_uni_search_header_spinner_find_uni_text_size" />

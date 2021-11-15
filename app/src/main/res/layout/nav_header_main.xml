@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llNavHeader"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height_sign_out"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/nav_header_vertical_padding"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/nav_header_horizontal_padding">
+
+        <ImageView
+            android:id="@+id/imgHeader"
+            android:layout_width="@dimen/nav_header_img_size"
+            android:layout_height="@dimen/nav_header_img_size"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtChangeLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/nav_header_language_padding_vertical"
+            android:paddingEnd="@dimen/nav_header_horizontal_padding"
+            android:paddingStart="@dimen/nav_header_language_padding_start"
+            android:paddingTop="@dimen/nav_header_language_padding_vertical"
+            android:text="@string/app_language_name_en"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_header_app_name_margin_top"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/nav_header_horizontal_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_navigation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="@dimen/nav_header_app_name_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llEditProfileOrSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/nav_header_vertical_padding"
+            android:paddingStart="@dimen/nav_header_horizontal_padding"
+            android:paddingTop="@dimen/nav_header_user_edit_profile_padding_top"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtUserEmailHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/nav_header_user_sign_in_and_edit_profile_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/nav_header_user_edit_profile_margin_top"
+                android:text="@string/navigation_header_edit_profile_sign_out"
+                android:textColor="@color/nav_header_user_sign_in_and_edit_profile_color" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSignInOrRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/nav_header_vertical_padding"
+            android:paddingStart="@dimen/nav_header_horizontal_padding"
+            android:paddingTop="@dimen/nav_header_user_sign_in_padding_top"
+            android:text="@string/navigation_header_sign_in_register"
+            android:textColor="@color/nav_header_user_sign_in_and_edit_profile_color"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

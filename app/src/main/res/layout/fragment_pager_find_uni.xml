@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_fragment_pager_find_uni"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/fragment_pager_fine_uni_padding_end"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/noResultFoundBoysAndGirls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingBottom="@dimen/search_uni_no_result_found_boys_and_girls_padding_bottom"
+        android:text="@string/search_no_results_found"
+        android:textColor="@color/search_uni_no_result_found_boys_and_girls_text_color"
+        android:textSize="@dimen/search_uni_no_result_found_boys_and_girls_text_size"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvPagerSearchUni"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/search_uni_rv_padding_bottom"
+        android:scrollbarStyle="outsideOverlay"
+        tools:listitem="@layout/rv_search_unis_image_side">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

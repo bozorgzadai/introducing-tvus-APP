@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cdUniReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/uni_reviews_rv_item_cv_margin_bottom"
+        android:layout_marginEnd="@dimen/uni_reviews_rv_item_cv_margin_end"
+        android:layout_marginStart="@dimen/uni_reviews_rv_item_cv_margin_start"
+        android:layout_marginTop="@dimen/uni_reviews_rv_item_cv_margin_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/uni_reviews_rv_item_cv_title_bg_color"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/uni_reviews_rv_item_cv_title_padding_horizontally"
+                android:paddingStart="@dimen/uni_reviews_rv_item_cv_title_padding_horizontally">
+
+                <TextView
+                    android:id="@+id/txtIconReview"
+                    android:layout_width="@dimen/uni_reviews_rv_item_cv_title_icon_review_size"
+                    android:layout_height="@dimen/uni_reviews_rv_item_cv_title_icon_review_size"
+                    android:layout_marginBottom="@dimen/uni_reviews_rv_item_cv_title_icon_review_margin_vertically"
+                    android:layout_marginEnd="@dimen/uni_reviews_rv_item_cv_title_icon_review_margin_end"
+                    android:layout_marginStart="@dimen/uni_reviews_rv_item_cv_title_icon_review_margin_start"
+                    android:layout_marginTop="@dimen/uni_reviews_rv_item_cv_title_icon_review_margin_vertically"
+                    android:gravity="center"
+                    android:text="@string/icon_comment"
+                    android:textColor="@color/uni_reviews_rv_item_cv_title_icon_review_text_color"
+                    android:textSize="@dimen/uni_reviews_rv_item_cv_title_icon_review_text_size"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/uni_reviews_rv_item_cv_ll_name_and_date_margin_vertically"
+                    android:layout_marginTop="@dimen/uni_reviews_rv_item_cv_ll_name_and_date_margin_vertically"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtUserNameReview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/uni_reviews_rv_item_cv_txt_user_name_text_color"
+                        android:textSize="@dimen/uni_reviews_rv_item_cv_txt_user_name_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtReviewDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/uni_reviews_rv_item_cv_txt_date_margin_top"
+                        android:textColor="@color/uni_reviews_rv_item_cv_txt_date_text_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/uni_reviews_rv_item_cv_ll_rating_bar_margin_bottom"
+                    android:paddingTop="@dimen/uni_reviews_rv_item_cv_ll_rating_bar_margin_top">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <RatingBar
+                        android:id="@+id/rbUserReview"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/uni_reviews_rv_item_cv_ll_rating_bar_rb_user_review_margin_bottom"
+                        android:layoutDirection="ltr"
+                        android:numStars="5" />
+
+                    <TextView
+                        android:id="@+id/txtReviewEdited"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/uni_reviews_rv_item_cv_txt_review_edited_margin_end"
+                        android:gravity="end"
+                        android:text="@string/uni_reviews_rv_edited_review"
+                        android:textSize="@dimen/uni_reviews_rv_item_cv_txt_review_edited_text_size"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="@dimen/uni_reviews_rv_item_cv_ll_text_review_margin">
+
+                <TextView
+                    android:id="@+id/txtUserReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/uni_reviews_rv_item_cv_txt_review_text_color"
+                    android:textSize="@dimen/uni_reviews_rv_item_cv_txt_review_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/uni_reviews_rv_item_cv_ll_bottom_bg_color"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/uni_reviews_rv_item_cv_ll_bottom_margin_end"
+                android:paddingStart="@dimen/uni_reviews_rv_item_cv_ll_bottom_margin_start">
+
+                <LinearLayout
+                    android:id="@+id/llUpVote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/uni_reviews_rv_item_cv_ll_vote_up_vote_down_padding_vertically"
+                    android:paddingTop="@dimen/uni_reviews_rv_item_cv_ll_vote_up_vote_down_padding_vertically">
+
+                    <TextView
+                        android:id="@+id/txtIconThumbsUp"
+                        android:layout_width="@dimen/uni_reviews_rv_item_cv_txt_icon_thumb_up_down_size"
+                        android:layout_height="@dimen/uni_reviews_rv_item_cv_txt_icon_thumb_up_down_size"
+                        android:gravity="center"
+                        android:text="@string/icon_thumbs_up"
+                        android:textSize="@dimen/uni_reviews_rv_item_cv_txt_icon_thumb_up_down_text_size" />
+
+                    <TextView
+                        android:id="@+id/txtUpVote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="ltr"
+                        android:minWidth="@dimen/uni_reviews_rv_item_cv_txt_vote_up_min_width" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDownVote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/uni_reviews_rv_item_cv_ll_vote_down_margin_start"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/uni_reviews_rv_item_cv_ll_vote_up_vote_down_padding_vertically"
+                    android:paddingTop="@dimen/uni_reviews_rv_item_cv_ll_vote_up_vote_down_padding_vertically">
+
+                    <TextView
+                        android:id="@+id/txtIconThumbsDown"
+                        android:layout_width="@dimen/uni_reviews_rv_item_cv_txt_icon_thumb_up_down_size"
+                        android:layout_height="@dimen/uni_reviews_rv_item_cv_txt_icon_thumb_up_down_size"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/icon_thumbs_down"
+                        android:textSize="@dimen/uni_reviews_rv_item_cv_txt_icon_thumb_up_down_text_size" />
+
+                    <TextView
+                        android:id="@+id/txtDownVote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="ltr" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:id="@+id/llEditReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/txtIconEditReview"
+                        android:layout_width="@dimen/uni_reviews_rv_item_cv_icon_edit_delete_size"
+                        android:layout_height="@dimen/uni_reviews_rv_item_cv_icon_edit_delete_size"
+                        android:layout_marginEnd="@dimen/uni_reviews_rv_item_cv_icon_edit_margin_end"
+                        android:layout_marginTop="@dimen/uni_reviews_rv_item_cv_icon_edit_margin_top"
+                        android:gravity="center"
+                        android:text="@string/icon_edit"
+                        android:textSize="@dimen/uni_reviews_rv_item_cv_icon_edit_delete_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uni_reviews_rv_edit_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDeleteReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/uni_reviews_rv_item_cv_ll_delete_margin_start"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/txtIconDelete"
+                        android:layout_width="@dimen/uni_reviews_rv_item_cv_icon_edit_delete_size"
+                        android:layout_height="@dimen/uni_reviews_rv_item_cv_icon_edit_delete_size"
+                        android:gravity="center"
+                        android:text="@string/icon_trash"
+                        android:textSize="@dimen/uni_reviews_rv_item_cv_icon_edit_delete_text_size"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uni_reviews_rv_delete_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llReportReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/uni_reviews_rv_item_cv_ll_report_margin_vertically"
+                    android:paddingStart="@dimen/uni_reviews_rv_item_cv_ll_report_margin_start"
+                    android:paddingTop="@dimen/uni_reviews_rv_item_cv_ll_report_margin_vertically"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/uni_reviews_rv_item_cv_icon_report_size"
+                        android:layout_height="@dimen/uni_reviews_rv_item_cv_icon_report_size"
+                        app:srcCompat="@drawable/ic_report" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/uni_reviews_rv_item_cv_txt_report_margin_start"
+                        android:text="@string/uni_reviews_rv_report_text" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

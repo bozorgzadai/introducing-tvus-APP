@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">معرفی دانشکده های فنی</string>
+    <string name="app_name_navigation">معرفی دانشکده های فنی و حرفه ای</string>
+    <string name="progress_dialog_wait">لطفا منتظر بمانید …</string>
+    <string name="share_app_title">اشتراک گذاری از طریق</string>
+    <string name="share_app_text">اپلیکیشن اندرویدی:\n
+معرفی دانشکده های فنی و حرفه ای\n
+در این اپلیکیشن شما میتوانید تمام دانشگاه های فنی و حرفه ای ایران را مشاهده نمایید و اطلاعات جامعی در مورد هر کدام به دست آورید. به علاوه نظرات افراد و دوستان خود را دیده و حتی نظر خود را با آنها به اشتراک بگذارید.\n
+برای دانلود این اپلیکیشن میتوانید از برنامه بازار استفاده نمایید یا بر روی لینک زیر کلیک کنید:\n
+https://www.dropbox.com/sh/581erkyofktcwn1/AAAeiQ5_2hmYfxdP858YCezKa?dl=0
+</string>
+
+    <string name="sign_in_google_your_google_play_services_has_problem_title">مشکل در Google Play Services</string>
+    <string name="sign_in_google_your_google_play_services_has_problem">سیستم Google Play Services شما دچار مشکل میباشد، لطفا از پست الکترونیک و رمز عبور برای ثبت نام یا ورود استفاده نمایید.</string>
+    <string name="sign_in_google_alert_button_text_ok">خب</string>
+    <string name="sign_in_google_progress_dialog_loading">بارگیری …</string>
+    <string name="sign_in_google_sign_in_with_google_account_text">ورود با حساب گوگل</string>
+    <string name="sign_in_google_register_with_email_text">ثبت نام با پست الکترونیک</string>
+    <string name="sign_in_google_have_an_account">در حال حاضر یک حساب کاربری دارید؟ <u>ورود</u></string>
+    <string name="sign_in_register_toolbar_title">ثبت نام با پست الکترونیک</string>
+    <string name="sign_in_sign_in_toolbar_title">ورود با پست الکترونیک</string>
+    <string name="sign_in_edit_text_name_hint">نام</string>
+    <string name="sign_in_edit_text_email_hint">پست الکترونیک</string>
+    <string name="sign_in_edit_text_password_hint">کلمه عبور</string>
+    <string name="sign_in_register_button">ثبت نام</string>
+    <string name="sign_in_sign_in_button">ورود</string>
+    <string name="sign_in_register_at_least_3_characters">حداقل 3 حرف</string>
+    <string name="sign_in_register_sign_in_invalid_email_address">پست الکترونیک نامعتبر است.</string>
+    <string name="sign_in_register_sing_in_invalid_password">کلمه عبور کوتاه است (حداقل 5 حرف)</string>
+    <string name="sign_in_register_show_password">نمایش کلمه عبور</string>
+    <string name="sign_in_register_you_are_successfully_registered">شما با موفقیت ثبت نام شدید.</string>
+    <string name="sign_in_register_email_duplicate_error">این پست الکترونیک قبلا در سیستم ثبت شده است، شما میتوانید از بخش ورود استفاده نمایید.</string>
+    <string name="sign_in_register_sign_in_google_email_error">این پست الکترونیک قبلا با حساب گوگل وارد شده است، شما میتوانید از بخش ورود با حساب گوگل استفاده نمایید.</string>
+    <string name="sign_in_sign_in_you_are_successfully_signed_in">شما با موفقیت وارد شدید.</string>
+    <string name="sign_in_sign_in_email_not_registered">این پست الکترونیک در سیستم ثبت نشده است.</string>
+    <string name="sign_in_sign_in_password_incorrect">رمز عبور وارد شده اشتباه میباشد.</string>
+    <string name="sign_in_sign_in_forgot_password">رمز عبورتان را فراموش کرده اید؟</string>
+    <string name="sign_in_sign_in_forget_password_enter_email">لطفا پست الکترونیک خود را وارد نمایید.</string>
+    <string name="sign_in_sign_in_forget_password_alert_email_sent">پست الکترونیک ارسال شد</string>
+    <string name="sign_in_sign_in_forget_password_alert_text_part1">ما یک پست الکترونیک به</string>
+    <string name="sign_in_sign_in_forget_password_alert_text_part2">ارسال کردیم، که با لینک موجود میتوانید رمز عبور خود را تا 24 ساعت بازیابی کنید.</string>
+    <string name="user_edit_profile_create_password_alert_text_part2">ارسال کردیم، که با لینک موجود میتوانید رمز عبور خود را تا 24 ساعت ایجاد نمایید.</string>
+
+    <string name="user_edit_profile_profile_title">مشخصات</string>
+    <string name="user_edit_profile_account_title">حساب کاربری</string>
+    <string name="user_edit_profile_account_reset_password">بازیابی کلمه عبور</string>
+    <string name="user_edit_profile_account_create_password">ایجاد رمز عبور</string>
+    <string name="user_edit_profile_account_clear_search_history">پاک کردن تاریخچه جستجو</string>
+    <string name="user_edit_profile_account_delete_account">حذف حساب کاربری</string>
+    <string name="user_edit_profile_account_sign_out">خروج از حساب</string>
+    <string name="user_edit_profile_apply_profile_change">اعمال تغییر مشخصات</string>
+    <string name="user_edit_profile_cannot_reset_password_text">تعیین شده توسط گوگل</string>
+    <string name="user_edit_profile_cannot_reset_password_toast">شما نمیتوانید رمز عبور خود را بازیابی کنید، زیرا شما با حساب گوگل خود وارد شده اید.</string>
+    <string name="user_edit_profile_cannot_change_email_toast">شما نمیتوانید پست الکترونیک خود را تغییر دهید، زیرا شما با حساب گوگل خود وارد شده اید.</string>
+    <string name="user_edit_profile_account_clear_search_history_message">آیا مطمئن هستید، که میخواهید تاریخچه جستجو خود را پاک کنید؟</string>
+    <string name="user_edit_profile_account_clear_search_history_positive_button">بله، من مطمئنم</string>
+    <string name="user_edit_profile_account_clear_search_history_successfully">تارخچه جستجو شما با موفقیت پاک شد.</string>
+    <string name="user_edit_profile_account_sign_out_message">خروج از حساب، معرفی دانشکده های فنی؟</string>
+    <string name="user_edit_profile_account_sign_out_positive_button">خروج</string>
+    <string name="user_edit_profile_account_sign_out_successfully">شما با موفقیت از حساب خود خارج شدید.</string>
+    <string name="user_edit_profile_email_duplicate">این پست الکترونیک قبلا در سیستم ثبت شده است.</string>
+    <string name="user_edit_profile_change_successfully">مشخصات شما با موفقیت تغییر یافت.</string>
+    <string name="user_edit_profile_unsaved_changes_title">تغییرات ذخیره نشده</string>
+    <string name="user_edit_profile_unsaved_changes_message">شما تغییرات دخیره نشده ای دارید، آیا از لغو آن مطمئن هستید؟</string>
+    <string name="user_edit_profile_unsaved_changes_positive_button">بله</string>
+    <string name="user_edit_profile_unsaved_changes_negative_button">خیر</string>
+
+    <string name="change_password_title">تغییر رمز عبور</string>
+    <string name="change_password_create_password_title">ایجاد رمز عبور</string>
+    <string name="change_password_new_password_hint">رمز عبور جدید</string>
+    <string name="change_password_new_password_hint_again">تکرار، رمز عبور جدید</string>
+    <string name="change_password_button">تغییر رمز عبور</string>
+    <string name="change_password_password_not_match">رمز های عبور مطابقت ندارند.</string>
+    <string name="change_password_link_expired">این لینک منقضی شده و فقط برای 24 ساعت معتبر است، لطفا یک درخواست جدید ثبت کنید.</string>
+    <string name="change_password_password_has_changed_before">این لینک فقط یک بار قابل استفاده است، لطفا یک درخواست جدید ثبت کنید.</string>
+    <string name="change_password_password_changed_successfully">رمز عبور با موفقیت تغییر یافت.</string>
+
+    <string name="search_no_results_found">هیچ نتیجه ای یافت نشد!</string>
+    <string name="search_choose_state">انتخاب استان</string>
+    <string name="search_filter_title">فیلتر کردن</string>
+    <string name="search_filter_list_set_separation">جداسازی دانشکده های پسرانه و دخترانه</string>
+    <string name="search_filter_list_set_separation_small">اعمال جداسازی</string>
+    <string name="search_filter_list_cancel_separation">لغو جداسازی</string>
+    <string name="search_change_layout">تغییر نحوه نمایش</string>
+    <string name="search_history_remove_item_message">آیا مایل به حذف کردن این مورد از تاریخچه جستجو هستید؟</string>
+    <string name="search_history_remove_item_positive_button_text">حذف</string>
+    <string name="speech_recognizer_hint">جستجو دانشکده…</string>
+    <string name="speech_recognizer_prompt">نام دانشکده مورد نظر خود را بیان کنید…</string>
+
+    <string name="navigation_header_sign_in_register">ورود/ثبت نام</string>
+    <string name="navigation_header_edit_profile_sign_out">تغییر مشخصات/خروج</string>
+    <string name="navigation_drawer_open">بازکردن اسلاید کناری</string>
+    <string name="navigation_drawer_close">بستن اسلاید کناری</string>
+    <string name="navigation_ic_home">خانه</string>
+    <string name="navigation_ic_most_viewed_unis">پربازدیدترین دانشکده ها</string>
+    <string name="navigation_ic_search">جستجو دانشکده</string>
+    <string name="navigation_ic_settings">تنظیمات</string>
+    <string name="navigation_ic_about_us">درباره ما</string>
+    <string name="navigation_ic_share">اشتراک گذاری</string>
+    <string name="navigation_ic_feedback">ارسال بازخورد</string>
+
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_search">جستجو</string>
+
+    <string name="internet_unavailable_text">شما به شبکه متصل هستید، اما اینترنت در دسترس نیست.</string>
+    <string name="internet_unavailable_btn_text">تلاش مجدد</string>
+
+    <string name="no_internet_your_offline">خطا در اتصال به اینترنت!</string>
+    <string name="no_internet_please_check_network">تنظیمات شبکه خود را بررسی نمایید</string>
+    <string name="no_internet_your_offline_please_check_network">خطا در اتصال به اینترنت، لطفا تنظیمات شبکه خود را بررسی نمایید.</string>
+    <string name="no_internet_toast">ارتباط شما با اینترنت قطع می باشد.</string>
+
+    <string name="most_viewed_boys_university">پربازدیدترین دانشکده های پسران</string>
+    <string name="see_all">لیست کامل ></string>
+    <string name="most_viewed_girls_university">پربازدیدترین دانشکده های دختران</string>
+
+    <string name="find_uni_tab_boys">پسران</string>
+    <string name="find_uni_tab_girls">دختران</string>
+    <string name="find_uni_choose_state">انتخاب استان :</string>
+
+    <string name="uni_detail_more_info">اطلاعات بیشتر</string>
+    <string name="uni_detail_user_reviews">نظرات کاربران</string>
+    <string name="uni_detail_data_logo">نشان</string>
+    <string name="uni_detail_data_full_name">نام کامل</string>
+    <string name="uni_detail_data_established">سال تاسیس</string>
+    <string name="uni_detail_data_type">نوع</string>
+    <string name="uni_detail_data_boss">رئیس</string>
+    <string name="uni_detail_data_educational_assistant">معاون آموزشی</string>
+    <string name="uni_detail_data_student_assistant">معاون دانشجویی</string>
+    <string name="uni_detail_data_number_of_students">تعداد دانشجویان</string>
+    <string name="uni_detail_data_associate_degrees">رشته های کاردانی</string>
+    <string name="uni_detail_data_bachelor_degrees">رشته های کارشناسی</string>
+    <string name="uni_detail_data_depend_on">وابسته به</string>
+    <string name="uni_detail_data_website">وبسایت</string>
+    <string name="uni_detail_read_more">ادامه مطلب</string>
+    <string name="uni_detail_read_less">بستن</string>
+    <string name="uni_detail_state">استان</string>
+    <string name="uni_detail_city">شهر</string>
+    <string name="uni_detail_address">نشانی</string>
+    <string name="uni_detail_show_in_maps">نمایش در نقشه گوگل</string>
+    <string name="uni_detail_not_define">نا معین</string>
+
+    <string name="uni_more_info_title">اطلاعات بیشتر</string>
+    <string name="uni_more_info_history_title">تاریخچه</string>
+    <string name="uni_more_info_names_form_the_beginning_title">نام ها از آغاز تاکنون</string>
+    <string name="uni_more_info_presidents_form_the_beginning_title">رئیسان از آغاز تاکنون</string>
+    <string name="uni_more_info_educational_groups_and_majors_title">گروه های آموزشی و رشته ها</string>
+    <string name="uni_more_info_honour_title">افتخارات</string>
+    <string name="uni_more_info_additional_explanation_title">توضیحات اضافی</string>
+
+    <string name="uni_reviews_toolbar_title">نظرات کاربران</string>
+    <string name="uni_reviews_ll_no_review_alert">هیچ نظری برای این دانشگاه ثبت نشده است!</string>
+    <string name="uni_reviews_ll_no_review_create_new_review">برای درج اولین نظر، روی دکمه پایین صفحه کلیک نمایید.</string>
+    <string name="uni_reviews_university_rating">امتیاز دانشگاه :</string>
+    <string name="uni_reviews_number_of_reviews">تعداد نظرات :</string>
+    <string name="uni_reviews_number_of_reviews_value">نظر</string>
+    <string name="uni_reviews_user_reviews">نظرات کاربران</string>
+    <string name="uni_reviews_rdb_new">جدیدترین</string>
+    <string name="uni_reviews_rdb_top">برترین</string>
+    <string name="uni_reviews_rv_report_text">گزارش</string>
+    <string name="uni_reviews_rv_edit_text">ویرایش</string>
+    <string name="uni_reviews_rv_delete_text">حذف</string>
+    <string name="uni_reviews_rv_delete_question_title">حذف نظر</string>
+    <string name="uni_reviews_rv_delete_question_message">آیا از پاک کردن نظر خود اطمینان دارید؟</string>
+    <string name="uni_reviews_rv_delete_question_positive_button">بله، من مطمئنم</string>
+    <string name="uni_reviews_rv_delete_deleted_successfully">نظر شما با موفقیت پاک شد.</string>
+    <string name="uni_reviews_rv_edited_review">ویرایش شده</string>
+    <string name="uni_reviews_new_review_rate_and_review_title">امتیاز و نظردهی</string>
+    <string name="uni_reviews_edit_review_rate_and_review_title">ویرایش امتیاز و نظردهی</string>
+    <string name="uni_reviews_edit_review_edit_button">ویرایش</string>
+    <string name="uni_reviews_new_review_write_your_review">نظرتان را بنویسید…</string>
+    <string name="uni_reviews_new_review_replace_review">نظر جدیدتان برای این دانشگاه، جایگزین نظر قبلیتان خواهد شد.</string>
+    <string name="uni_reviews_new_review_cancel">لغو</string>
+    <string name="uni_reviews_new_review_submit">ثبت</string>
+    <string name="uni_reviews_new_review_at_least_five_character">حداقل 5 حرف</string>
+    <string name="uni_reviews_new_review_set_your_rating">لطفا امتیاز خود را تعیین کنید.</string>
+    <string name="uni_reviews_new_review_your_review_submitted_successfully">نظر شما با موفقیت ثبت گردید.</string>
+    <string name="uni_reviews_edit_review_your_review_edited_successfully">نظر شما با موفقیت ویرایش شد.</string>
+    <string name="uni_reviews_report_dialog_title">گزارش یک نظر</string>
+    <string name="uni_reviews_report_dialog_question_why">دلیل شما برای گزارش این نظر چیست؟</string>
+    <string name="uni_reviews_report_dialog_rdb_inappropriate_content">محتوای نامناسب</string>
+    <string name="uni_reviews_report_dialog_rdb_advertising">تبلیغات</string>
+    <string name="uni_reviews_report_dialog_choose_one_item">لطفا یک مورد را انتخاب نمایید.</string>
+    <string name="uni_reviews_report_dialog_submitted_successfully">گزارش شما با موفقیت ثبت گردید.</string>
+
+    <string name="settings_toolbar_title">تنظیمات</string>
+    <string name="settings_language_title">زبان (Language)</string>
+    <string name="settings_language_software">زبان نرم افزار</string>
+    <string name="settings_language_voice_search_assistance">زبان دستیار جستجوی صوتی</string>
+    <string name="settings_language_choose_language">انتخاب زبان</string>
+    <string name="settings_language_choose_voice_search_language">انتخاب زبان جستجوی صوتی</string>
+    <string name="settings_language_current_software_language">زبان جاری نرم افزار</string>
+    <string name="settings_system_title">سیستم</string>
+    <string name="settings_system_view_app_in_system_setting">مشاهده برنامه در تنظیمات سیستم</string>
+    <string name="settings_system_clear_search_history">پاک کردن تاریخچه جستجو (ذخیره بر روی گوشی)</string>
+    <string name="settings_system_clear_search_history_alert">تذکر: اگر با حساب کاربری وارد شده اید، برای پاک کردن تاریخچه جستجو از بخش مدیریت حساب اغدام نمایید.</string>
+    <string name="settings_system_clear_search_history_title">پاک کردن تاریخچه جستجو</string>
+    <string name="settings_system_clear_search_history_message">آیا مطمئن هستید، که میخواهید تاریخچه جستجو (ذخیره بر روی گوشی) خود را پاک کنید؟</string>
+    <string name="settings_system_clear_search_history_positive_button">بله، من مطمئنم</string>
+    <string name="settings_other_title">موارد دیگر</string>
+    <string name="settings_other_account_management">مدیریت حساب کاربری</string>
+    <string name="settings_other_about_us">درباره ما</string>
+
+    <string name="about_us_toolbar_title">درباره ما</string>
+    <string name="about_us_app_version">نسخه\u0020</string>
+    <string name="about_us_technical_and_vocational_university">دانشگاه فنی و حرفه ای</string>
+    <string name="about_us_developer_name_title">توسعه دهنده:\u0020</string>
+    <string name="about_us_developer_email_title">پست الکترونیک:\u0020</string>
+    <string name="about_us_developer_name">علی بزرگ زاد ارباب</string>
+
+    <string name="feedback_toolbar_title">بازخورد</string>
+    <string name="feedback_edt_hint"><font size="18">بازخوردتان را بیان کنید(پیشنهاد یا مشکل)</font></string>
+    <string name="feedback_edt_at_least">حداقل 15 حرف</string>
+    <string name="feedback_add_screenshots">اضافه کردن Screenshots (اختیاری):</string>
+    <string name="feedback_device_info_included">اطلاعات دستگاه شما به صورت خودکار ارسال خواهد شد.</string>
+    <string name="feedback_send_successfully">بازخورد شما با موفقیت ارسال شد.</string>
+    <string name="feedback_progressbar_text">بارگذاری تصویر…</string>
+    <string name="feedback_progressbar_cancel">بارگذاری توسط کاربر لغو گردید.</string>
+    <string name="feedback_loading_failed">بارگذاری با شکست مواجه شد.</string>
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:elevation="@dimen/uni_reviews_dialog_new_review_ll_title_elevation"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/uni_reviews_dialog_new_review_ll_title_padding_vertically"
+            android:paddingEnd="@dimen/uni_reviews_dialog_new_review_ll_title_padding_horizontally"
+            android:paddingStart="@dimen/uni_reviews_dialog_new_review_ll_title_padding_horizontally"
+            android:paddingTop="@dimen/uni_reviews_dialog_new_review_ll_title_padding_vertically">
+
+            <TextView
+                android:id="@+id/txtTitleNewAndEditReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uni_reviews_new_review_rate_and_review_title"
+                android:textColor="@color/uni_reviews_dialog_new_review_ll_title_txt_title_color"
+                android:textSize="@dimen/uni_reviews_dialog_new_review_ll_title_txt_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtUniShortNameNewAndEditReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/uni_reviews_dialog_new_review_ll_title_uni_name_margin_top"
+                android:textColor="@color/uni_reviews_dialog_new_review_ll_title_uni_name_text_color"
+                android:textSize="@dimen/uni_reviews_dialog_new_review_ll_title_uni_name_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/uni_reviews_bg_color"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/uni_reviews_dialog_new_review_ll_body_padding_bottom"
+            android:paddingEnd="@dimen/uni_reviews_dialog_new_review_ll_body_padding_end"
+            android:paddingStart="@dimen/uni_reviews_dialog_new_review_ll_body_padding_start"
+            android:paddingTop="@dimen/uni_reviews_dialog_new_review_ll_body_padding_top">
+
+            <TextView
+                android:id="@+id/txtUserNameNewAndEditReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/uni_reviews_dialog_new_review_ll_body_user_name_text_color"
+                android:textSize="@dimen/uni_reviews_dialog_new_review_ll_body_user_name_text_size"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rbNewAndEditReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/uni_reviews_dialog_new_review_ll_body_rb_margin_vertically"
+                android:layout_marginTop="@dimen/uni_reviews_dialog_new_review_ll_body_rb_margin_vertically"
+                android:layoutDirection="ltr"
+                android:numStars="5"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:theme="@style/RatingBarColor" />
+
+            <EditText
+                android:id="@+id/edtNewAndEditReviewText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/uni_reviews_dialog_new_review_ll_body_edit_text_drawable_padding"
+                android:hint="@string/uni_reviews_new_review_write_your_review"
+                android:inputType="textMultiLine"
+                android:layoutDirection="ltr"
+                android:maxLines="10" />
+
+            <TextView
+                android:id="@+id/txtEditNoticeReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/uni_reviews_dialog_new_review_ll_body_txt_edit_notice_margin_top"
+                android:text="@string/uni_reviews_new_review_replace_review"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/uni_reviews_dialog_new_review_ll_body_ll_buttons_margin_top"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtCancelNewAndEditReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_new_review_btn"
+                    android:gravity="center_horizontal"
+                    android:minWidth="@dimen/uni_reviews_dialog_new_review_ll_body_buttons_min_width"
+                    android:padding="@dimen/uni_reviews_dialog_new_review_ll_body_buttons_padding"
+                    android:text="@string/uni_reviews_new_review_cancel"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtSubmitNewAndEditReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/uni_reviews_dialog_new_review_ll_body_btn_submit_margin_start"
+                    android:background="@drawable/ripple_new_review_btn"
+                    android:gravity="center_horizontal"
+                    android:minWidth="@dimen/uni_reviews_dialog_new_review_ll_body_buttons_min_width"
+                    android:padding="@dimen/uni_reviews_dialog_new_review_ll_body_buttons_padding"
+                    android:text="@string/uni_reviews_new_review_submit"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,250 @@
+<resources>
+    <string name="server_client_id">23870278971-sk5677gdlv32setldv1jioirqpfovr0q.apps.googleusercontent.com</string>
+
+    <string name="app_name">Introducing TVUs</string>
+    <string name="app_name_navigation">Introducing Technical Universities</string>
+    <string name="progress_dialog_wait">Please wait …</string>
+    <string name="app_language_name_en">English</string>
+    <string name="app_language_name_fa">فارسی</string>
+    <string name="share_app_title">Share via</string>
+    <string name="share_app_text">Android Application: \n
+Introducing Technical and Vocational University \n
+In this software you can find all of the technical university in Iran and get a lot of information about each one. \n
+Also you can see the user reviews for each university and even share you opinion with them. \n
+To download this application you can use Bazaar APP or download from the below link: \n
+https://www.dropbox.com/sh/581erkyofktcwn1/AAAeiQ5_2hmYfxdP858YCezKa?dl=0</string>
+
+    <string name="full_host_name">http://intro-tvus.alibozorgzadarbab.ir</string>
+    <string name="manifest_scheme">http</string>
+    <string name="manifest_host_name">intro-tvus.mahsoftgroup.ir</string>
+    <string name="manifest_path_prefix">/webservice</string>
+
+    <string name="sign_in_google_your_google_play_services_has_problem_title">Google Play Services Problem</string>
+    <string name="sign_in_google_your_google_play_services_has_problem">Your Google Play Services has problem, Please use Email and Password for register or sign in.</string>
+    <string name="sign_in_google_alert_button_text_ok">OK</string>
+    <string name="sign_in_google_progress_dialog_loading">Loading …</string>
+    <string name="sign_in_google_sign_in_with_google_account_text">Sign In with Google</string>
+    <string name="sign_in_google_register_with_email_text">Register with Email</string>
+    <string name="sign_in_google_have_an_account">Already have an account?  <u>Sign In</u></string>
+    <string name="sign_in_register_toolbar_title">Register with Email</string>
+    <string name="sign_in_sign_in_toolbar_title">Sign In with Email</string>
+    <string name="sign_in_edit_text_name_hint">Name</string>
+    <string name="sign_in_edit_text_email_hint">Email</string>
+    <string name="sign_in_edit_text_password_hint">Password</string>
+    <string name="sign_in_register_button">Register</string>
+    <string name="sign_in_sign_in_button">Sign In</string>
+    <string name="sign_in_register_at_least_3_characters">At least 3 characters</string>
+    <string name="sign_in_register_sign_in_invalid_email_address">This email address is invalid</string>
+    <string name="sign_in_register_sing_in_invalid_password">This password is too short (at least 5 characters)</string>
+    <string name="sign_in_register_show_password">Show password</string>
+    <string name="sign_in_register_you_are_successfully_registered">You are successfully registered.</string>
+    <string name="sign_in_register_email_duplicate_error">This Email is already registered in the system, You can use Sign In.</string>
+    <string name="sign_in_register_sign_in_google_email_error">This Email has already been signed in with a Google Account, You can use Sign In with Google.</string>
+    <string name="sign_in_sign_in_you_are_successfully_signed_in">You are successfully singed in.</string>
+    <string name="sign_in_sign_in_email_not_registered">This Email is not registered in the system.</string>
+    <string name="sign_in_sign_in_password_incorrect">The Password you entered is incorrect.</string>
+    <string name="sign_in_sign_in_forgot_password">Forgot your password?</string>
+    <string name="sign_in_sign_in_forget_password_enter_email">Please enter your Email address.</string>
+    <string name="sign_in_sign_in_forget_password_alert_email_sent">Email sent</string>
+    <string name="sign_in_sign_in_forget_password_alert_text_part1">We sent an email to</string>
+    <string name="sign_in_sign_in_forget_password_alert_text_part2">with a link that you can reset your password until 24 hours.</string>
+    <string name="user_edit_profile_create_password_alert_text_part2">with a link that you can create your password until 24 hours.</string>
+
+    <string name="user_edit_profile_profile_title">Profile</string>
+    <string name="user_edit_profile_account_title">Account</string>
+    <string name="user_edit_profile_account_reset_password">Reset Password</string>
+    <string name="user_edit_profile_account_create_password">Create Password</string>
+    <string name="user_edit_profile_account_clear_search_history">Clear Search History</string>
+    <string name="user_edit_profile_account_delete_account">Delete Account</string>
+    <string name="user_edit_profile_account_sign_out">Sign Out</string>
+    <string name="user_edit_profile_apply_profile_change">Apply Profile Change</string>
+    <string name="user_edit_profile_cannot_reset_password_text">set by Google</string>
+    <string name="user_edit_profile_cannot_reset_password_toast">You cannot reset your password, because you Signed In with Google account.</string>
+    <string name="user_edit_profile_cannot_change_email_toast">You cannot change your email, because you Signed In with Google account.</string>
+    <string name="user_edit_profile_account_clear_search_history_message">Are you sure, that you want to clear your search history?</string>
+    <string name="user_edit_profile_account_clear_search_history_positive_button">Yes, I\'m sure</string>
+    <string name="user_edit_profile_account_clear_search_history_successfully">Your search history cleared successfully.</string>
+    <string name="user_edit_profile_account_sign_out_message">Sign Out of Introducing TVUs?</string>
+    <string name="user_edit_profile_account_sign_out_positive_button">Sign Out</string>
+    <string name="user_edit_profile_account_sign_out_successfully">You are successfully Sign Out from your account.</string>
+    <string name="user_edit_profile_email_duplicate">This Email is already registered in the system.</string>
+    <string name="user_edit_profile_change_successfully">Your profile changed successfully.</string>
+    <string name="user_edit_profile_unsaved_changes_title">Unsaved changes</string>
+    <string name="user_edit_profile_unsaved_changes_message">You have unsaved changes. Are you sure you want to cancel?</string>
+    <string name="user_edit_profile_unsaved_changes_positive_button">Yes</string>
+    <string name="user_edit_profile_unsaved_changes_negative_button">No</string>
+
+    <string name="change_password_title">Change Password</string>
+    <string name="change_password_create_password_title">Create Password</string>
+    <string name="change_password_new_password_hint">New password</string>
+    <string name="change_password_new_password_hint_again">New password, again</string>
+    <string name="change_password_button">Change Password</string>
+    <string name="change_password_password_not_match">Passwords do not match.</string>
+    <string name="change_password_link_expired">This link has expired and only valid for 24 hours, Please request a new one.</string>
+    <string name="change_password_password_has_changed_before">This link is one time use, Please request a new one.</string>
+    <string name="change_password_password_changed_successfully">Password changed successfully.</string>
+
+    <string name="search_no_results_found">No results found!</string>
+    <string name="search_choose_state">Choose State</string>
+    <string name="search_filter_title">Set Filter</string>
+    <string name="search_filter_list_set_separation">Separate Boys &amp; Girls Colleges</string>
+    <string name="search_filter_list_set_separation_small">Set Separation</string>
+    <string name="search_filter_list_cancel_separation">Cancel Separation</string>
+    <string name="search_change_layout">Change layout</string>
+    <string name="search_history_remove_item_message">Do you want to remove the item form search history?</string>
+    <string name="search_history_remove_item_positive_button_text">Remove</string>
+    <string name="speech_recognizer_hint">Search University…</string>
+    <string name="speech_recognizer_prompt">Say the name of the university that you want…</string>
+
+    <string name="navigation_header_sign_in_register">SignIn\\Register</string>
+    <string name="navigation_header_edit_profile_sign_out">Edit Profile\\SignOut</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_ic_home">Home</string>
+    <string name="navigation_ic_most_viewed_unis">Most Viewed Colleges</string>
+    <string name="navigation_ic_search">Search College</string>
+    <string name="navigation_ic_settings">Settings</string>
+    <string name="navigation_ic_about_us">About Us</string>
+    <string name="navigation_ic_share">Share</string>
+    <string name="navigation_ic_feedback">Send Feedback</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_send_feedback">Send Feedback</string>
+
+    <string name="internet_unavailable_text">You are connected to the Network, but internet is unavailable.</string>
+    <string name="internet_unavailable_btn_text">Try Again</string>
+
+    <string name="no_internet_your_offline">Your offline!</string>
+    <string name="no_internet_please_check_network">Please Check Your Network Settings</string>
+    <string name="no_internet_your_offline_please_check_network">Your Offline, Please Check Your Network Settings.</string>
+    <string name="no_internet_toast">Your Not Connected To The Internet.</string>
+
+    <string name="most_viewed_boys_university">Most Viewed Boys Universities</string>
+    <string name="see_all">See All ></string>
+    <string name="most_viewed_girls_university">Most Viewed Girls Universities</string>
+
+    <string name="find_uni_tab_boys">Boys</string>
+    <string name="find_uni_tab_girls">Girls</string>
+    <string name="find_uni_choose_state">Choose The State :</string>
+
+    <string name="uni_detail_more_info">More Info</string>
+    <string name="uni_detail_user_reviews">User Reviews</string>
+    <string name="uni_detail_data_logo">Logo</string>
+    <string name="uni_detail_data_full_name">Full Name</string>
+    <string name="uni_detail_data_established">Established</string>
+    <string name="uni_detail_data_type">Type</string>
+    <string name="uni_detail_data_boss">President</string>
+    <string name="uni_detail_data_educational_assistant">Educational Assistant</string>
+    <string name="uni_detail_data_student_assistant">Student Assistant</string>
+    <string name="uni_detail_data_number_of_students">Number of Students</string>
+    <string name="uni_detail_data_associate_degrees">Associate Degrees</string>
+    <string name="uni_detail_data_bachelor_degrees">Bachelor Degrees</string>
+    <string name="uni_detail_data_depend_on">Affiliations</string>
+    <string name="uni_detail_data_website">Website</string>
+    <string name="uni_detail_read_more">Read More</string>
+    <string name="uni_detail_read_less">Read Less</string>
+    <string name="uni_detail_state">State</string>
+    <string name="uni_detail_city">City</string>
+    <string name="uni_detail_address">Address</string>
+    <string name="uni_detail_show_in_maps">Show in Google Maps</string>
+    <string name="uni_detail_not_define">Not Define</string>
+
+    <string name="uni_more_info_title">More Info</string>
+    <string name="uni_more_info_history_title">History</string>
+    <string name="uni_more_info_names_form_the_beginning_title">Names From The Beginning</string>
+    <string name="uni_more_info_presidents_form_the_beginning_title">Presidents From The Beginning</string>
+    <string name="uni_more_info_educational_groups_and_majors_title">Educational Groups And Majors</string>
+    <string name="uni_more_info_honour_title">Honours</string>
+    <string name="uni_more_info_additional_explanation_title">Additional Explanations</string>
+
+    <string name="uni_reviews_toolbar_title">User Reviews</string>
+    <string name="uni_reviews_ll_no_review_alert">There are no reviews for this university!</string>
+    <string name="uni_reviews_ll_no_review_create_new_review">To insert the first review, click the button at the bottom of the page.</string>
+    <string name="uni_reviews_university_rating">University Rating :</string>
+    <string name="uni_reviews_number_of_reviews">Number of Reviews :</string>
+    <string name="uni_reviews_number_of_reviews_value">Reviews</string>
+    <string name="uni_reviews_user_reviews">User Reviews</string>
+    <string name="uni_reviews_rdb_new">New</string>
+    <string name="uni_reviews_rdb_top">Top</string>
+    <string name="uni_reviews_rv_report_text">Report</string>
+    <string name="uni_reviews_rv_edit_text">Edit</string>
+    <string name="uni_reviews_rv_delete_text">Delete</string>
+    <string name="uni_reviews_rv_delete_question_title">Delete Review</string>
+    <string name="uni_reviews_rv_delete_question_message">Are you sure, that you want to delete your review?</string>
+    <string name="uni_reviews_rv_delete_question_positive_button">Yes, I\'m sure</string>
+    <string name="uni_reviews_rv_delete_deleted_successfully">Your review deleted successfully.</string>
+    <string name="uni_reviews_rv_edited_review">edited</string>
+    <string name="uni_reviews_new_review_rate_and_review_title">Rate and review</string>
+    <string name="uni_reviews_edit_review_rate_and_review_title">Edit rate and review</string>
+    <string name="uni_reviews_edit_review_edit_button">EDIT</string>
+    <string name="uni_reviews_new_review_write_your_review">Write your review…</string>
+    <string name="uni_reviews_new_review_replace_review">Your new review on this university, will replace the old one.</string>
+    <string name="uni_reviews_new_review_cancel">CANCEL</string>
+    <string name="uni_reviews_new_review_submit">SUBMIT</string>
+    <string name="uni_reviews_new_review_at_least_five_character">At least 5 characters</string>
+    <string name="uni_reviews_new_review_set_your_rating">Please set your rating.</string>
+    <string name="uni_reviews_new_review_your_review_submitted_successfully">Your review submitted successfully.</string>
+    <string name="uni_reviews_edit_review_your_review_edited_successfully">Your review edited successfully.</string>
+    <string name="uni_reviews_report_dialog_title">Report a Review</string>
+    <string name="uni_reviews_report_dialog_question_why">Why are you reporting this review?</string>
+    <string name="uni_reviews_report_dialog_rdb_inappropriate_content">Inappropriate Content</string>
+    <string name="uni_reviews_report_dialog_rdb_advertising">Advertising</string>
+    <string name="uni_reviews_report_dialog_choose_one_item">Please choose one of the item.</string>
+    <string name="uni_reviews_report_dialog_submitted_successfully">Your report submitted successfully.</string>
+
+    <string name="settings_toolbar_title">Settings</string>
+    <string name="settings_language_title">Language (زبان)</string>
+    <string name="settings_language_software">Software Language</string>
+    <string name="settings_language_voice_search_assistance">Voice Search Assistant Language</string>
+    <string name="settings_language_choose_language">Choose Language</string>
+    <string name="settings_language_choose_voice_search_language">Choose Voice Search Language</string>
+    <string name="settings_language_current_software_language">Current software language</string>
+    <string name="settings_system_title">System</string>
+    <string name="settings_system_view_app_in_system_setting">View app in system settings</string>
+    <string name="settings_system_clear_search_history">Clear search history (saved on phone)</string>
+    <string name="settings_system_clear_search_history_alert">Notice: If you Sign in with your account, use Account Management for clear your search history.</string>
+    <string name="settings_system_clear_search_history_title">Clear search history</string>
+    <string name="settings_system_clear_search_history_message">Are you sure, that you want to clear your search history (saved on phone)?</string>
+    <string name="settings_system_clear_search_history_positive_button">Yes, I\'m sure</string>
+    <string name="settings_other_title">Other</string>
+    <string name="settings_other_account_management">Account Management</string>
+    <string name="settings_other_about_us">About us</string>
+
+    <string name="about_us_toolbar_title">About Us</string>
+    <string name="about_us_app_version">Version\u0020</string>
+    <string name="about_us_technical_and_vocational_university">Technical And Vocational University</string>
+    <string name="about_us_tvu_site_address"><u>http://tvu.ac.ir</u></string>
+    <string name="about_us_developer_name_title">Developer:\u0020</string>
+    <string name="about_us_developer_email_title">Email:\u0020</string>
+    <string name="about_us_developer_name">Ali Bozorgzad Arbab</string>
+    <string name="about_us_developer_email">A.bozorgzad1995@gmail.com</string>
+
+    <string name="feedback_toolbar_title">Feedback</string>
+    <string name="feedback_edt_hint">Write your feedback</string>
+    <string name="feedback_edt_at_least">At least 15 characters</string>
+    <string name="feedback_add_screenshots">Add screenshots (optional):</string>
+    <string name="feedback_device_info_included">Your device information will be included automatically.</string>
+    <string name="feedback_send_successfully">Your feedback sent successfully.</string>
+    <string name="feedback_progressbar_text">Uploading image…</string>
+    <string name="feedback_progressbar_cancel">Upload canceled by the user.</string>
+    <string name="feedback_loading_failed">Loading failed.</string>
+
+    <string name="icon_comment">&#xf075;</string>
+    <string name="icon_comments">&#xf086;</string>
+    <string name="icon_thumbs_up">&#xf164;</string>
+    <string name="icon_thumbs_down">&#xf165;</string>
+    <string name="icon_trash">&#xf1f8;</string>
+    <string name="icon_edit">&#xf044;</string>
+    <string name="icon_file_text">&#xf15c;</string>
+    <string name="icon_list_ul_image_side">&#xf0ca;</string>
+    <string name="icon_th_large_image_grid">&#xf009;</string>
+    <string name="icon_bars_image_top">&#xf0c9;</string>
+    <string name="icon_filter">&#xf0b0;</string>
+    <string name="icon_google">&#xf1a0;</string>
+    <string name="icon_envelop">&#xf0e0;</string>
+    <string name="icon_user_circle_o">&#xf2be;</string>
+    <string name="icon_plus">&#xf067;</string>
+    <string name="icon_close">&#xf00d;</string>
+
+</resources>

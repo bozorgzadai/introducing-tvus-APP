@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F9D58</color>
+    <color name="colorPrimaryDark">#0B8043</color>
+    <color name="colorAccent">#12b566</color>
+    <color name="recent_apps_title_background_color">#045A1E</color>
+    <color name="launchScreen_ColorPrimaryDark">#9E9E9E</color>
+
+    <color name="nav_header_user_sign_in_and_edit_profile_color">#FAFAFA</color>
+    <color name="nav_header_bg_color_start">#81C784</color>
+    <color name="nav_header_bg_color_center">#52ba57</color>
+    <color name="nav_header_bg_color_end">#348a39</color>
+
+    <color name="main_page_bg_color">#EEE</color>
+    <color name="main_page_ll_see_all_most_viewed_unis_text_title_color">#61747E</color>
+    <color name="main_page_ll_see_all_most_viewed_unis_text_all_color">#2196F3</color>
+
+    <color name="sign_in_text_color">#FFF</color>
+    <color name="sign_in_button_bg_color">#FCA11E</color>
+    <color name="sign_in_app_name_text_color">#FFF</color>
+    <color name="sign_in_button_text_color">#FFF</color>
+
+    <color name="sign_in_google_buttons_icon_color">#FFF</color>
+    <color name="sign_in_google_buttons_text_color">#FFF</color>
+    <color name="sign_in_google_txt_sign_in_text_color">#FFF</color>
+    <color name="sign_in_google_ll_sign_in_with_google_bg_color">#EB1414</color>
+    <color name="sign_in_google_ll_sign_in_with_google_bg_color_press">#D01212</color>
+    <color name="sign_in_google_ll_register_with_email_bg_color">#1974FD</color>
+    <color name="sign_in_google_ll_register_with_email_bg_color_press">#1767E0</color>
+
+    <color name="sign_in_and_register_text_input_hint_color">#FFF</color>
+    <color name="sign_in_and_register_edit_text_color">#FFF</color>
+    <color name="sign_in_and_register_check_box_text_color">#FFF</color>
+    <color name="sign_in_and_register_check_box_button_tint_color">#FFF</color>
+    <color name="sign_in_and_register_txt_forgot_password_text_color">#F2F2F2</color>
+
+    <color name="user_edit_profile_divider_item">#77FFFFFF</color>
+    <color name="user_edit_profile_edit_text_activated_color">#96C4EE</color>
+    <color name="user_edit_profile_title_color">#FFF</color>
+    <color name="user_edit_profile_title_divider_bg_color">#EEE</color>
+    <color name="user_edit_profile_user_info_edit_text_color">#FFF</color>
+    <color name="user_edit_profile_user_info_edit_text_hint_color">#88FFFFFF</color>
+    <color name="user_edit_profile_user_account_txt_item_text_color">#FFF</color>
+
+    <color name="main_layout_border_most_viewed_uni_bg_color">#FFF</color>
+    <color name="main_layout_border_most_viewed_uni_border_color">#D3D3D3</color>
+
+    <color name="search_uni_search_header_bg_color">#F7F7F7</color>
+    <color name="search_uni_search_header_divider_color">#DCDCDC</color>
+    <color name="search_uni_search_header_ll_filter_text_title_color">#575757</color>
+    <color name="search_uni_search_header_ll_filter_text_current_text_color">#777</color>
+    <color name="search_uni_search_header_no_result_found_text_color">#555</color>
+    <color name="search_uni_search_header_spinner_find_uni_text_color">#393939</color>
+    <color name="search_uni_no_result_found_boys_and_girls_text_color">#555</color>
+    <color name="search_sliding_tab_layout_title_color">#444</color>
+    <color name="search_uni_xml_txt_uni_name_color">#1C1C1C</color>
+    <color name="search_uni_xml_txt_uni_state_color">#444</color>
+    <color name="search_view_rv_parent_bg_color">#DDD</color>
+    <color name="search_view_change_layout_title_and_icon_text_color">#757575</color>
+    <color name="search_view_suggest_bg_color">#55000000</color>
+    <color name="search_view_suggest_icon_color">#757575</color>
+    <color name="search_view_suggest_item_parent_bg_color">#FFF</color>
+    <color name="search_view_suggest_item_bg_color">#FFF</color>
+    <color name="search_view_suggest_item_bg_color_hold">#F0F0F0</color>
+    <color name="search_view_suggest_item_text_color">#212121</color>
+    <color name="search_bg_spinner_start_color">#E3E3E3</color>
+    <color name="search_bg_spinner_end_color">#EDEDED</color>
+    <color name="search_uni_layout_border_bg_color">#FFF</color>
+    <color name="search_uni_layout_border_border_color">#222</color>
+
+    <color name="project_btn_bg">#7FB546</color>
+    <color name="project_btn_text_color">#FDFDFD</color>
+
+    <color name="bg_fragment_pager_find_uni">#DDD</color>1
+
+    <color name="translucent_scrim_top">#21000000</color>
+    <color name="translucent_scrim_top_center">#11000000</color>
+    <color name="translucent_scrim_bottom">#21000000</color>
+    <color name="translucent_scrim_bottom_center">#11000000</color>
+
+    <color name="uni_detail_bg">#EEE</color>
+    <color name="uni_detail_data_bg">#FFF</color>
+    <color name="uni_detail_btn_ripple_color">#BFBFBF</color>
+    <color name="uni_detail_data_color_title">#AAA</color>
+    <color name="uni_detail_data_color_data">#424242</color>
+    <color name="uni_detail_bg_map_not_view">#DDD</color>
+
+    <color name="uni_more_info_title_divider_color">#CCC</color>
+    <color name="uni_more_info_divider_color">#BBB</color>
+    <color name="uni_more_info_bg">#DDD</color>
+    <color name="uni_more_info_title_and_ll_expandables_bg">#FFF</color>
+    <color name="uni_more_info_full_name_title_color">#686868</color>
+    <color name="uni_more_info_btn_expandables_bg">#EEE</color>
+    <color name="uni_more_info_btn_expandables_text_color">#424242</color>
+    <color name="uni_more_info_text_color">#929292</color>
+
+    <color name="uni_reviews_bg_color">#FFF</color>
+    <color name="uni_reviews_rv_uni_reviews_bg_color">#F5F5F5</color>
+    <color name="uni_reviews_dialog_new_review_ll_title_txt_title_color">#FFF</color>
+    <color name="uni_reviews_dialog_new_review_ll_title_uni_name_text_color">#FFF</color>
+    <color name="uni_reviews_dialog_new_review_ll_body_user_name_text_color">#555</color>
+    <color name="uni_reviews_rv_header_ll_title_bg_color">#EAEAEA</color>
+    <color name="uni_reviews_rv_header_ll_title_text_color">#515151</color>
+    <color name="uni_reviews_rv_header_cv_body_bg_color">#FFF</color>
+    <color name="uni_reviews_rv_header_cv_uni_rating_and_number_of_reviews_text_color">#888</color>
+    <color name="uni_reviews_rv_header_cv_ll_number_of_review_text_color">#888</color>
+    <color name="uni_reviews_rv_item_cv_title_bg_color">#DFDFDF</color>
+    <color name="uni_reviews_rv_item_cv_title_icon_review_text_color">#888</color>
+    <color name="uni_reviews_rv_item_cv_txt_user_name_text_color">#5A5A5A</color>
+    <color name="uni_reviews_rv_item_cv_txt_date_text_color">#757575</color>
+    <color name="uni_reviews_rv_item_cv_txt_review_text_color">#555</color>
+    <color name="uni_reviews_rv_item_cv_ll_bottom_bg_color">#F2F2F2</color>
+    <color name="uni_reviews_rv_edit_icon_color">#888</color>
+    <color name="uni_reviews_rv_vote_default_color">#6F6F6F</color>
+    <color name="uni_reviews_rv_up_vote_color">@color/colorAccent</color>
+    <color name="uni_reviews_rv_down_vote_color">#FF1414</color>
+    <color name="uni_reviews_dialog_report_txt_title_text_color">#FFF</color>
+    <color name="uni_reviews_dialog_report_txt_ask_why_report_text_color">#222</color>
+    <color name="uni_reviews_dialog_report_buttons_text_color">#555</color>
+
+    <color name="settings_bg_color">#FAFAFA</color>
+    <color name="settings_item_text_color">#2A2A2A</color>
+    <color name="settings_item_second_text_color">#999</color>
+    <color name="settings_item_divider_color">#BBB</color>
+
+    <color name="about_us_text_color">#555</color>
+    <color name="about_us_bg_color">#FFF</color>
+
+    <color name="feedback_bg_color">#FAFAFA</color>
+    <color name="feedback_card_view_add_screenshot_divider_color">#BBB</color>
+    <color name="feedback_card_view_rv_layout_border_bg_color">#EFEFEF</color>
+    <color name="feedback_card_view_rv_layout_border_border_color">#222</color>
+    <color name="feedback_card_view_rv_txt_remove_text_color">#FFF</color>
+    <color name="feedback_card_view_rv_txt_remove_bg_color">#666</color>
+    <color name="feedback_card_view_mobile_info_text_color">#666</color>
+
+</resources>
+
+

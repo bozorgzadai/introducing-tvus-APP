@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="search_uni_spn_uni_state_min_width">150dp</dimen>
+
+</resources>

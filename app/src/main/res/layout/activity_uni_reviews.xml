@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bozorgzad.ali.introducingtvus.ActivityUniReviews">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvUniReviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/uni_reviews_rv_uni_reviews_bg_color"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/uni_reviews_rv_uni_reviews_padding_bottom"
+        android:scrollbarStyle="outsideOverlay"
+        tools:listitem="@layout/rv_uni_review_item">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/llReviewProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/uni_reviews_ll_review_progress_bar_margin_top"
+        android:background="@color/uni_reviews_rv_uni_reviews_bg_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_atop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNoReview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/uni_reviews_rv_uni_reviews_bg_color"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/uni_reviews_no_review_alert_margin_top"
+            android:gravity="center_horizontal"
+            android:text="@string/uni_reviews_ll_no_review_alert"
+            android:textSize="@dimen/uni_reviews_no_review_alert_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/uni_reviews_no_review_alert_create_review"
+            android:gravity="center_horizontal"
+            android:text="@string/uni_reviews_ll_no_review_create_new_review" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabWriteReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/uni_reviews_fab_write_review_margin"
+        app:srcCompat="@drawable/ic_edit" />
+
+</android.support.design.widget.CoordinatorLayout>

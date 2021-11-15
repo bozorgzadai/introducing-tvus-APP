@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/settings_body_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_language_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/settings_title_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llSoftwareLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/settings_item_margin_start"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_settings"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/settings_item_padding_top_except_voice_search">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_text_margin_start"
+                android:layout_weight="1"
+                android:text="@string/settings_language_software"
+                android:textColor="@color/settings_item_text_color"
+                android:textSize="@dimen/settings_item_text_size" />
+
+            <TextView
+                android:id="@+id/txtCurrentSoftwareLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_second_text_margin_start"
+                android:layout_marginTop="@dimen/settings_item_second_text_margin_top"
+                android:layout_weight="1"
+                android:text="English"
+                android:textColor="@color/settings_item_second_text_color"
+                android:textSize="@dimen/settings_item_second_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_divider_height"
+                android:layout_marginTop="@dimen/settings_item_divider_margin_top_language"
+                android:layout_weight="1"
+                android:background="@color/settings_item_divider_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llVoiceSearchAssistant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/settings_item_margin_start"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_settings"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/settings_item_voice_search_padding_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_text_margin_start"
+                android:layout_weight="1"
+                android:text="@string/settings_language_voice_search_assistance"
+                android:textColor="@color/settings_item_text_color"
+                android:textSize="@dimen/settings_item_text_size" />
+
+            <TextView
+                android:id="@+id/txtVoiceSearchLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_second_text_margin_start"
+                android:layout_marginTop="@dimen/settings_item_second_text_margin_top"
+                android:layout_weight="1"
+                android:text="@string/settings_language_current_software_language"
+                android:textColor="@color/settings_item_second_text_color"
+                android:textSize="@dimen/settings_item_second_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_divider_height"
+                android:layout_marginTop="@dimen/settings_item_divider_margin_top_language"
+                android:layout_weight="1"
+                android:background="@color/settings_item_divider_color" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_title_margin_top_except_language"
+            android:layout_weight="1"
+            android:text="@string/settings_system_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/settings_title_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llViewAppInSystemSettings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/settings_item_margin_start"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_settings"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/settings_item_padding_top_except_voice_search">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_text_margin_start"
+                android:layout_weight="1"
+                android:text="@string/settings_system_view_app_in_system_setting"
+                android:textColor="@color/settings_item_text_color"
+                android:textSize="@dimen/settings_item_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_divider_height"
+                android:layout_marginTop="@dimen/settings_item_divider_margin_top_except_language"
+                android:layout_weight="1"
+                android:background="@color/settings_item_divider_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llClearSearchHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/settings_item_margin_start"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_settings"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/settings_item_padding_top_except_voice_search">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_text_margin_start"
+                android:layout_weight="1"
+                android:text="@string/settings_system_clear_search_history"
+                android:textColor="@color/settings_item_text_color"
+                android:textSize="@dimen/settings_item_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/settings_item_second_clear_search_history_margin_end"
+                android:layout_marginStart="@dimen/settings_item_second_text_margin_start"
+                android:layout_marginTop="@dimen/settings_item_second_text_margin_top"
+                android:layout_weight="1"
+                android:text="@string/settings_system_clear_search_history_alert"
+                android:textColor="@color/settings_item_second_text_color"
+                android:textSize="@dimen/settings_item_second_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_divider_height"
+                android:layout_marginTop="@dimen/settings_item_divider_margin_top_except_language"
+                android:layout_weight="1"
+                android:background="@color/settings_item_divider_color" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_title_margin_top_except_language"
+            android:layout_weight="1"
+            android:text="@string/settings_other_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/settings_title_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llAccountManagement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/settings_item_margin_start"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_settings"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/settings_item_padding_top_except_voice_search">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_text_margin_start"
+                android:layout_weight="1"
+                android:text="@string/settings_other_account_management"
+                android:textColor="@color/settings_item_text_color"
+                android:textSize="@dimen/settings_item_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_divider_height"
+                android:layout_marginTop="@dimen/settings_item_divider_margin_top_except_language"
+                android:layout_weight="1"
+                android:background="@color/settings_item_divider_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/settings_item_margin_start"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_settings"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/settings_item_padding_top_except_voice_search">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/settings_item_text_margin_start"
+                android:layout_weight="1"
+                android:text="@string/settings_other_about_us"
+                android:textColor="@color/settings_item_text_color"
+                android:textSize="@dimen/settings_item_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_divider_height"
+                android:layout_marginTop="@dimen/settings_item_divider_margin_top_except_language"
+                android:layout_weight="1"
+                android:background="@color/settings_item_divider_color" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

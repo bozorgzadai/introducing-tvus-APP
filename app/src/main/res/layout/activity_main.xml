@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_page_bg_color"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/RLImageSliderMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_page_image_slider_height">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerMainSlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <com.bozorgzad.ali.introducingtvus.ImageSliderPageIndicator
+                android:id="@+id/pageIndicatorMain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_page_page_indicator_height"
+                android:layout_alignParentBottom="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LLMostViewedBoysUnis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_page_ll_most_viewed_unis_margin_top"
+            android:minHeight="@dimen/main_page_ll_most_viewed_unis_min_height"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llSeeAllMostViewedBoysUnis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/ripple_see_all_most_viewed_unis"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/main_page_ll_see_all_most_viewed_unis_padding_bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_padding_horizontally"
+                    android:paddingStart="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_padding_horizontally"
+                    android:paddingTop="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_padding_top"
+                    android:text="@string/most_viewed_boys_university"
+                    android:textColor="@color/main_page_ll_see_all_most_viewed_unis_text_title_color"
+                    android:textSize="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="@dimen/main_page_ll_see_all_most_viewed_unis_text_all_padding_horizontally"
+                    android:paddingStart="@dimen/main_page_ll_see_all_most_viewed_unis_text_all_padding_horizontally"
+                    android:paddingTop="@dimen/main_page_ll_see_all_most_viewed_unis_text_all_padding_top"
+                    android:text="@string/see_all"
+                    android:textColor="@color/main_page_ll_see_all_most_viewed_unis_text_all_color" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvMostViewedBoysUnis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.85" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLMostViewedGirlsUnis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_page_ll_most_viewed_unis_margin_top"
+            android:minHeight="@dimen/main_page_ll_most_viewed_unis_min_height"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llSeeAllMostViewedGirlsUnis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/ripple_see_all_most_viewed_unis"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/main_page_ll_see_all_most_viewed_unis_padding_bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_padding_horizontally"
+                    android:paddingStart="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_padding_horizontally"
+                    android:paddingTop="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_padding_top"
+                    android:text="@string/most_viewed_girls_university"
+                    android:textColor="@color/main_page_ll_see_all_most_viewed_unis_text_title_color"
+                    android:textSize="@dimen/main_page_ll_see_all_most_viewed_unis_text_title_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="@dimen/main_page_ll_see_all_most_viewed_unis_text_all_padding_horizontally"
+                    android:paddingStart="@dimen/main_page_ll_see_all_most_viewed_unis_text_all_padding_horizontally"
+                    android:paddingTop="@dimen/main_page_ll_see_all_most_viewed_unis_text_all_padding_top"
+                    android:text="@string/see_all"
+                    android:textColor="@color/main_page_ll_see_all_most_viewed_unis_text_all_color" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvMostViewedGirlsUnis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.85" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

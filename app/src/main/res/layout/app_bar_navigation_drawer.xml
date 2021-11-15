@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bozorgzad.ali.introducingtvus.ActivityMain">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/ablNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarNavigationDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:contentInsetStartWithNavigation="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ViewStub
+        android:id="@+id/viewStubNavigationDrawer"
+        layout="@layout/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:id="@+id/llHeaderProgressMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/llNotConnectedToInternetMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/not_connected_to_internet_padding_bottom"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/no_internet_margin_bottom"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/no_internet_and_internet_unavailable_img_width_and_height"
+                    android:layout_height="@dimen/no_internet_and_internet_unavailable_img_width_and_height"
+                    android:layout_marginBottom="@dimen/no_internet_img_margin_bottom"
+                    android:src="@drawable/no_internet" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_internet_your_offline"
+                    android:textSize="@dimen/no_internet_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/no_internet_img_settings_width_and_height"
+                    android:layout_height="@dimen/no_internet_img_settings_width_and_height"
+                    android:layout_marginBottom="@dimen/no_internet_img_settings_marign_bottom"
+                    android:layout_marginEnd="@dimen/no_internet_img_settings_marign_end"
+                    android:src="@drawable/network_setting" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_internet_please_check_network"
+                    android:textSize="@dimen/no_internet_text_size" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llInternetUnavailableMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/internet_unavailable_margin_top"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/no_internet_and_internet_unavailable_img_width_and_height"
+                android:layout_height="@dimen/no_internet_and_internet_unavailable_img_width_and_height"
+                app:srcCompat="@drawable/ic_internet_unavailable" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/internet_unavailable_text_margin_top"
+                android:gravity="center"
+                android:paddingEnd="@dimen/internet_unavailable_text_padding_horizontal"
+                android:paddingStart="@dimen/internet_unavailable_text_padding_horizontal"
+                android:text="@string/internet_unavailable_text"
+                android:textSize="@dimen/internet_unavailable_text_size" />
+
+            <Button
+                android:id="@+id/btnInternetUnavailableMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/internet_unavailable_btn_margin_top"
+                android:paddingEnd="@dimen/project_btn_padding_horizontal"
+                android:paddingStart="@dimen/project_btn_padding_horizontal"
+                android:text="@string/internet_unavailable_btn_text"
+                android:textColor="@color/project_btn_text_color"
+                android:textSize="@dimen/internet_unavailable_btn_text_size"
+                app:backgroundTint="@color/project_btn_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

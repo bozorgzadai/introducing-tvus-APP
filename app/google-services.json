@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23870278971",
+    "project_id": "introducingtvus-177007"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23870278971:android:3e9c8f3cad866544",
+        "android_client_info": {
+          "package_name": "com.bozorgzad.ali.introducingtvus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23870278971-u4c0l25u5te61efn1savau6ro5879g5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bozorgzad.ali.introducingtvus",
+            "certificate_hash": "b1b442606e9ec069d70f075d3e2fc94a7a8d77c2"
+          }
+        },
+        {
+          "client_id": "23870278971-sk5677gdlv32setldv1jioirqpfovr0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH-9cipmVhdegh60XhNuloL13OYpl778s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

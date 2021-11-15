@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/sign_in_padding_horizontal"
+        android:paddingStart="@dimen/sign_in_padding_horizontal"
+        android:paddingTop="@dimen/sign_in_padding_top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_logo_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sign_in_app_name_margin_top"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/sign_in_app_name_text_color"
+            android:textSize="@dimen/sign_in_app_name_text_size" />
+
+        <LinearLayout
+            android:id="@+id/llSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/sign_in_and_register_ll_padding_top"
+            android:visibility="visible">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColorHint="@color/sign_in_and_register_text_input_hint_color"
+                android:theme="@style/MyEditTextTheme">
+
+                <EditText
+                    android:id="@+id/edtEmailSignIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/sign_in_and_register_edit_text_drawable_padding"
+                    android:hint="@string/sign_in_edit_text_email_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColor="@color/sign_in_and_register_edit_text_color"
+                    android:theme="@style/MyEditTextTheme" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sign_in_and_register_text_input_margin_top_except_first"
+                android:textColorHint="@color/sign_in_and_register_text_input_hint_color"
+                android:theme="@style/MyEditTextTheme">
+
+                <EditText
+                    android:id="@+id/edtPasswordSignIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/sign_in_and_register_edit_text_drawable_padding"
+                    android:hint="@string/sign_in_edit_text_password_hint"
+                    android:imeActionId="@+id/btnSignIn"
+                    android:imeActionLabel="@string/sign_in_sign_in_button"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:textColor="@color/sign_in_and_register_edit_text_color"
+                    android:theme="@style/MyEditTextTheme" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/cbShowPasswordSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sign_in_and_register_check_box_margin_top"
+                android:text="@string/sign_in_register_show_password"
+                android:textColor="@color/sign_in_and_register_check_box_text_color"
+                app:buttonTint="@color/sign_in_and_register_check_box_button_tint_color" />
+
+            <TextView
+                android:id="@+id/txtForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/sign_in_and_register_txt_forgot_password_margin_top"
+                android:gravity="center"
+                android:padding="@dimen/sign_in_and_register_txt_forgot_password_padding"
+                android:text="@string/sign_in_sign_in_forgot_password"
+                android:textColor="@color/sign_in_and_register_txt_forgot_password_text_color"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/sign_in_button_margin_bottom"
+                android:layout_marginTop="@dimen/sign_in_and_register_btn_sign_in_margin_top"
+                android:padding="@dimen/sign_in_button_padding"
+                android:text="@string/sign_in_sign_in_button"
+                android:textColor="@color/sign_in_button_text_color"
+                app:backgroundTint="@color/sign_in_button_bg_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRegister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/sign_in_and_register_ll_padding_top"
+            android:visibility="gone">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColorHint="@color/sign_in_and_register_text_input_hint_color"
+                android:theme="@style/MyEditTextTheme">
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/sign_in_and_register_edit_text_drawable_padding"
+                    android:hint="@string/sign_in_edit_text_name_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:textColor="@color/sign_in_and_register_edit_text_color"
+                    android:theme="@style/MyEditTextTheme" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sign_in_and_register_text_input_margin_top_except_first"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColorHint="@color/sign_in_and_register_text_input_hint_color"
+                android:theme="@style/MyEditTextTheme">
+
+                <EditText
+                    android:id="@+id/edtEmailRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/sign_in_and_register_edit_text_drawable_padding"
+                    android:hint="@string/sign_in_edit_text_email_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColor="@color/sign_in_and_register_edit_text_color"
+                    android:theme="@style/MyEditTextTheme" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sign_in_and_register_text_input_margin_top_except_first"
+                android:textColorHint="@color/sign_in_and_register_text_input_hint_color"
+                android:theme="@style/MyEditTextTheme">
+
+                <EditText
+                    android:id="@+id/edtPasswordRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/sign_in_and_register_edit_text_drawable_padding"
+                    android:hint="@string/sign_in_edit_text_password_hint"
+                    android:imeActionId="@+id/btnRegister"
+                    android:imeActionLabel="@string/sign_in_register_button"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/sign_in_and_register_edit_text_color"
+                    android:theme="@style/MyEditTextTheme" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/cbShowPasswordRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sign_in_and_register_check_box_margin_top"
+                android:text="@string/sign_in_register_show_password"
+                android:textColor="@color/sign_in_and_register_check_box_text_color"
+                app:buttonTint="@color/sign_in_and_register_check_box_button_tint_color" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentTop="false"
+                android:layout_marginBottom="@dimen/sign_in_button_margin_bottom"
+                android:layout_marginTop="@dimen/sign_in_and_register_btn_register_margin_top"
+                android:padding="@dimen/sign_in_button_padding"
+                android:text="@string/sign_in_register_button"
+                android:textColor="@color/sign_in_button_text_color"
+                android:visibility="visible"
+                app:backgroundTint="@color/sign_in_button_bg_color" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"   >
+
+    <solid
+        android:color="@color/feedback_card_view_rv_layout_border_bg_color" >
+    </solid>
+
+    <stroke
+        android:width="@dimen/feedback_card_view_rv_layout_border_width"
+        android:color="@color/feedback_card_view_rv_layout_border_border_color" >
+    </stroke>
+
+    <corners
+        android:radius="@dimen/feedback_card_view_rv_layout_border_radius"   >
+    </corners>
+
+</shape>

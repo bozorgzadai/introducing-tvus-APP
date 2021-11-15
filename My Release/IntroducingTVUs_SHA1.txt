@@ -1,0 +1,7 @@
+Have to change it on    "console.developers.google.com"
+
+Release
+EE:9B:38:67:62:97:F2:06:9B:89:41:57:A2:6D:B9:33:96:38:2B:80
+
+Debug
+B1:B4:42:60:6E:9E:C0:69:D7:0F:07:5D:3E:2F:C9:4A:7A:8D:77:C2

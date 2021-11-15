@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/sign_in_padding_horizontal"
+        android:paddingStart="@dimen/sign_in_padding_horizontal"
+        android:paddingTop="@dimen/user_edit_profile_padding_top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_logo_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sign_in_app_name_margin_top"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/sign_in_app_name_text_color"
+            android:textSize="@dimen/sign_in_app_name_text_size" />
+
+        <LinearLayout
+            android:id="@+id/llUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/user_edit_profile_user_info_margin_top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/user_edit_profile_title_margin_bottom"
+                android:text="@string/user_edit_profile_profile_title"
+                android:textColor="@color/user_edit_profile_title_color"
+                android:textSize="@dimen/user_edit_profile_title_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/user_edit_profile_title_divider_height"
+                android:background="@color/user_edit_profile_title_divider_bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtUserNameUserInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="@dimen/user_edit_profile_user_info_edit_text_drawable_padding"
+                    android:drawableStart="@drawable/ic_account_circle"
+                    android:gravity="right|center_vertical"
+                    android:hint="@string/sign_in_edit_text_name_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:layoutDirection="ltr"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/user_edit_profile_user_info_edit_text_padding_vertical"
+                    android:paddingEnd="@dimen/user_edit_profile_user_info_edit_text_padding_horizontal"
+                    android:paddingStart="@dimen/user_edit_profile_user_info_edit_text_padding_horizontal"
+                    android:paddingTop="@dimen/user_edit_profile_user_info_edit_text_padding_vertical"
+                    android:textColor="@color/user_edit_profile_user_info_edit_text_color"
+                    android:textColorHint="@color/user_edit_profile_user_info_edit_text_hint_color"
+                    android:textSize="@dimen/user_edit_profile_user_info_edit_text_size"
+                    android:theme="@style/EditTextProfileTheme" />
+
+                <TextView
+                    android:id="@+id/txtDividerUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/user_edit_profile_user_info_edit_text_divider_height"
+                    android:background="@color/user_edit_profile_divider_item"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtUserEmailUserInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="@dimen/user_edit_profile_user_info_edit_text_drawable_padding"
+                    android:drawableStart="@drawable/ic_email"
+                    android:gravity="right|center_vertical"
+                    android:hint="@string/sign_in_edit_text_email_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress"
+                    android:layoutDirection="ltr"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/user_edit_profile_user_info_edit_text_padding_vertical"
+                    android:paddingEnd="@dimen/user_edit_profile_user_info_edit_text_padding_horizontal"
+                    android:paddingStart="@dimen/user_edit_profile_user_info_edit_text_padding_horizontal"
+                    android:paddingTop="@dimen/user_edit_profile_user_info_edit_text_padding_vertical"
+                    android:textColor="@color/user_edit_profile_user_info_edit_text_color"
+                    android:textColorHint="@color/user_edit_profile_user_info_edit_text_hint_color"
+                    android:textSize="@dimen/user_edit_profile_user_info_edit_text_size"
+                    android:theme="@style/EditTextProfileTheme" />
+
+                <TextView
+                    android:id="@+id/txtDividerUserEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/user_edit_profile_user_info_edit_text_divider_height"
+                    android:background="@color/user_edit_profile_divider_item"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llUserAccount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/user_edit_profile_user_account_margin_top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/user_edit_profile_title_margin_bottom"
+                android:text="@string/user_edit_profile_account_title"
+                android:textColor="@color/user_edit_profile_title_color"
+                android:textSize="@dimen/user_edit_profile_title_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/user_edit_profile_title_divider_height"
+                android:background="@color/user_edit_profile_title_divider_bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtResetPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_edit_account"
+                        android:paddingBottom="@dimen/user_edit_profile_user_account_txt_item_padding_vertical"
+                        android:paddingStart="@dimen/user_edit_profile_user_account_txt_item_padding_start"
+                        android:paddingTop="@dimen/user_edit_profile_user_account_txt_item_padding_vertical"
+                        android:text="@string/user_edit_profile_account_reset_password"
+                        android:textColor="@color/user_edit_profile_user_account_txt_item_text_color"
+                        android:textSize="@dimen/user_edit_profile_user_account_txt_item_text_size" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/user_edit_profile_user_account_divider_height"
+                        android:background="@color/user_edit_profile_divider_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtClearSearchHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_edit_account"
+                        android:paddingBottom="@dimen/user_edit_profile_user_account_txt_item_padding_vertical"
+                        android:paddingStart="@dimen/user_edit_profile_user_account_txt_item_padding_start"
+                        android:paddingTop="@dimen/user_edit_profile_user_account_txt_item_padding_vertical"
+                        android:text="@string/user_edit_profile_account_clear_search_history"
+                        android:textColor="@color/user_edit_profile_user_account_txt_item_text_color"
+                        android:textSize="@dimen/user_edit_profile_user_account_txt_item_text_size" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/user_edit_profile_user_account_divider_height"
+                        android:background="@color/user_edit_profile_divider_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtSignOut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_edit_account"
+                        android:paddingBottom="@dimen/user_edit_profile_user_account_txt_item_padding_vertical"
+                        android:paddingStart="@dimen/user_edit_profile_user_account_txt_item_padding_start"
+                        android:paddingTop="@dimen/user_edit_profile_user_account_txt_item_padding_vertical"
+                        android:text="@string/user_edit_profile_account_sign_out"
+                        android:textColor="@color/user_edit_profile_user_account_txt_item_text_color"
+                        android:textSize="@dimen/user_edit_profile_user_account_txt_item_text_size" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/user_edit_profile_user_account_divider_height"
+                        android:background="@color/user_edit_profile_divider_item" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnApplyProfileChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/sign_in_button_margin_bottom"
+            android:layout_marginEnd="@dimen/sign_in_padding_horizontal"
+            android:layout_marginStart="@dimen/sign_in_padding_horizontal"
+            android:layout_marginTop="@dimen/sign_in_button_margin_top"
+            android:layout_weight="1"
+            android:padding="@dimen/sign_in_button_padding"
+            android:text="@string/user_edit_profile_apply_profile_change"
+            android:textColor="@color/sign_in_button_text_color"
+            app:backgroundTint="@color/sign_in_button_bg_color"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+</ScrollView>
+
