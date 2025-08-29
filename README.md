@@ -5,11 +5,15 @@ An app that provides access to college pages, with features to rate and comment.
 
 ## Screenshots
 
-<p align="center">
+<!-- <p align="center">
   <img src="screenshots/1.png" width="250"/>
   <img src="screenshots/2.png" width="250"/>
   <img src="screenshots/3.png" width="250"/>
-</p>
+</p> -->
+
+![App Screenshots](screenshots/1.png)
+![App Screenshots](screenshots/2.png)
+![App Screenshots](screenshots/3.png)
 
 ## Features
 
